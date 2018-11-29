@@ -12,7 +12,7 @@
         footer{
             height: 60px;
             width:100%;
-            margin-top: 300px;
+            margin-top: 250px;
             
         
 
@@ -77,30 +77,38 @@
 </div>
 <form>
     <center>
-            <h1><font color="black";style="font-size:25px";>Fund Transfer</font></h1>
+            <h1><font color="black";style="font-size:25px";>Add New Account</font></h1>
             <table border="2">
 
     <tr>
-        <td>From Account Number:</td>
-        <td><input type="number" name="From Account Number"></dd></td>
+        <td>Account Holder Name:</td>
+        <td><input type="text" name="Account Holder Name"></dd></td>
     </tr>
     <tr>
-            <td>To account Number:</td>
-            <td><input type="number" name="To account Number"></dd></td>
+            <td>Customer Email-Id:</td>
+            <td><input type="email" name="Customer Email-Id"></dd></td>
     </tr>
     <tr>
-            <td>Amount to Transfer:</td>
-            <td><input type="number" name="Amount to Transfer"></dd></td>
+            <td>Customer D.O.B.:</td>
+            <td><input type="date" name="Customer D.O.B."></dd></td>
     </tr>
     <tr>
-            <td>Date to Transfer:</td>
-            <td><input type="date" name="Date to Transfer"></dd></td>
+            <td>Customer Phone Number:</td>
+            <td><input type="text" name="Customer Phone Number"></dd></td>
     </tr>
     <tr>
-            <td>Account Number:</td>
-            <td><input type="number" name="Amount to Transfer"></dd></td>
-            <center>
-            <td><button type="transfer" form="transfer"  >Deposite</button></td>
+            <td>Account Type:</td>
+            <td><select>
+                    <option value="Select">Select</option>
+                    <option value="Savings">Savings</option>
+                    <option value="Current">Current</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td>
+                <td><button type="submit" form="nameform" value="Submit" >Submit</button><br><br></td>
+                <td><button type="submit" form="nameform" value="Reset" >Reset</button><br><br></td>
+        </td>
     </tr>
 </table>
 </center>
@@ -109,24 +117,14 @@
 
 <footer>
        
-        <nav style ="float:left">
-                <a href="/Privacy/">Privacy</a>|
-                <a href="/Security/">Security</a>|
-                <a href="/Website Usage Term/">Website Usage Terms</a>|
-        </nav>
-        <nav style="float:right";position="relative";bottom="2px">
-                ©️HDFC Rights Reserved
-        </nav>
-</footer>
+            <nav style ="float:left">
+                    <a href="/Privacy/">Privacy</a>|
+                    <a href="/Security/">Security</a>|
+                    <a href="/Website Usage Term/">Website Usage Terms</a>|
+            </nav>
+            <nav style="float:right";position="relative";bottom="2px">
+                    ©️HDFC Rights Reserved
+            </nav>
+    </footer>
 </body>
 </html>
-
-
-
-
-  
-   
-   
-   
-  
-  

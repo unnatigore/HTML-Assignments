@@ -4,11 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search Account</title>
-</head>
-<body>
-    <dt><h2>Enter Account Number</h2></dt>
-    <dd><input type="number" name="enter Account Number"><br><br></dd>
-    <dd><button type="submit" form="nameform" value="submit">Submit</button><br></button></dd>
+    <title>Banking Application</title>
+<link href="style.css" type="text/css " rel="stylesheet"/>
+
+    <style type="text/css">
+
+        footer{
+            height: 60px;
+            width:100%;
+            margin-top: 400px;
+            
+        
+
+        }
+        
+            body{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .topnav{
+                overflow: hidden;
+                background-color: black;
+            
+            }
+            .topnav a{
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+        
+            }
+            .topnav a:hover{
+                background-color: azure;
+                color:  #000;
+            }
+        
+            b{
+                position: relative;
+        top:-30px;
+        bottom:3cm;
+        left: 270px;
+        font-size: "20";
+    }
+        </style>
+
+
+
+
+</head> 
+
+<body style="background-color: antiquewhite;font-style: oblique">
+
+<header style="background-color:darkblue;font-style: oblique">
+        <img src="HDFC bank.png" alt ="Bank" style="width:300px;height:150px" >
+     <b><font size="20" color="white" ><i>HDFC Bank</i></font></b>
+     <hr>
+</header>
+
+
+
+<div class="topnav">
+    <a class="active" href="AddNewAccount.html">Add New Account</a>|
+    <a href="SearchAccount.html">Search Account</a>|
+    <a href="ViewAccount.html">View Account</a>|
+    <a href="ViewAllCustomers.html">View All Customers</a>|
+    <a href="UpdateCustomerForm.html">Update Customer Form</a>|
+    <a href="WithdrawForm.html">Withdraw Form</a>|
+    <a href="DepositeForm.html">Deposite Form</a>|
+    <a href="FundTransfer.html">Fund Transfer</a>
+</div>
+<form>
+        <center>
+                <h1><font color="black";style="font-size:25px";>Search Account</font></h1>
+                <table border="2">
+    
+        <tr>
+            <td>Enter Account Number:</td>
+            <td><input type="number" name="Enter Account Number"></dd></td>
+            <td><button type="submit" form="nameform" value="Submit" >Submit</button><br><br></td>
+        </tr>
+    </center>
+</table>
+</form>
+
+
+
+
+<footer>
+       
+        <nav style ="float:left">
+                <a href="/Privacy/">Privacy</a>|
+                <a href="/Security/">Security</a>|
+                <a href="/Website Usage Term/">Website Usage Terms</a>|
+        </nav>
+        <nav style="float:right";position="relative";bottom="2px">
+                ©️HDFC Rights Reserved
+        </nav>
+</footer>
 </body>
 </html>
+    

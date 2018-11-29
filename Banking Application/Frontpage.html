@@ -4,37 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <title>Banking Application</title>
 
 
+    <style type="text/css">
 
-
-<body>
-    <div id="header"></div>
-    <style>
-    body{
-        position:absolute;
-        top:5cm;
-        width:100%;
-        height:2px;
+        footer{
+            position:relative;
+            bottom:0;
+            height: 40px;
+            margin-top: 20px;
+        }
+        
+            body{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .topnav{
+                overflow: hidden;
+                background-color: black;
+            
+            }
+            .topnav a{
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+        
+            }
+            .topnav a:hover{
+                background-color: azure;
+                color:  #000;
+            }
+        
+            b{
+                position: relative;
+        top:-30px;
+        bottom: 3cm;
+        left: 270px;
+        font-size: "20";
     }
-    </style>
-    <body>
+        </style>
 
-    
-    <nav>
-        <a href="/AddNewAccount/">Add New Account</a>|
-        <a href="/SearchAccount/">Search Account</a>|
-        <a href="/ViewAccount/">View Account</a>|
-        <a href="/ViewAllCustomers/">View All Customers</a>|
-        <a href="/UpdateCustomerCare/">Update Customer Care</a>|
-        <a href="/WithdrawForm/">Withdraw Form</a>|
-        <a href="/DepositeForm/">Deposite Form</a>|
-        <a href="/FundTransfer/">Fund Transfer</a>
 
-    </nav>
-    <div id="footer"></div>
+
+
+</head> 
+
+<body style="background-color: antiquewhite;font-style: oblique">
+
+<header style="background-color:darkblue;font-style: oblique">
+        <img src="HDFC bank.png" alt ="Bank" style="width:300px;height:150px" >
+
+     <b><font size="20" color="white" ><i>HDFC Bank</i></font></b>
+     <hr>
+</header>
+
+
+
+<div class="topnav">
+    <a class="active" href="FrontPage.html">Home</a>|
+    <a href="SignIn.html">Sign In</a>|
+    <a href="AddNewAccount.html">Add New Account</a>|
+    <a href="SearchAccount.html">Search Account</a>|
+    <a href="ViewAccount.html">View Account</a>|
+    <a href="ViewAllCustomers.html">View All Customers</a>|
+    <a href="UpdateCustomerForm.html">Update Customer Form</a>|
+    <a href="WithdrawForm.html">Withdraw Form</a>|
+    <a href="DepositeForm.html">Deposite Form</a>|
+    <a href="FundTransfer.html">Fund Transfer</a>
+</div>
+<img src="HDFC Bank 2.png" alt ="Bank" style="width:100%;height:500px" >
+
+<footer>
+    <nav style ="float:left">
+
+        <a href="/Privacy/">Privacy</a>|
+        <a href="/Security/">Security</a>|
+        <a href="/Website Usage Term/">Website Usage Terms</a>|
+</nav>
+<nav style="float:right";position="relative";bottom="2px">
+        ©️HDFC Rights Reserved
+</nav>
+</footer>
 </body>
-<embed>
 </html>
+
+
